@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   height: 400px;
+   width: 400px;
+}
+
+.display {
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.buttons {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.fifth-row {
+    display: flex;
+    justify-content: space-between;
+}
+
